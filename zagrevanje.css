@@ -1,56 +1,76 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+    background-color: #000;
 }
 
-body{
-    font-family: "Poppins", sans-serif;
-    overflow: hidden;
-}
-
-.menu a{
-    color: white;
-    text-decoration: none;
-
-}
-
-
-a{
-    color: white;
-    text-decoration: none;
-}
-
-a:hover{
-    color: red;
-}
-
-nav{
+.chat-box {
+    width: 39rem;
+    max-width: 95%;
+    margin: auto;
+    height: 350px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    /* padding: 1.6rem; */
-    background-color: black;
-    color: white;
-    width: 100vw;
-    font-size: 1.2rem;
-    position:sticky;
-    box-shadow: 0 2px 3px 2px black;
-    height: 100px;
+    align-content: center;
 }
 
-
-.logo{
-    width: 150px;
-    height: 100px;
-    background-image: url(media/logo.png);
-    background-size: cover;
-}
-
-
-.menu{
+.typing {
     display: flex;
-    gap: 1.2rem;
-    margin-right: 1.5rem;
+    align-self: center;
+}
+
+.typing input {
+    width: 500px;
+    height: 60px;
+    color: #000;
+    font-family: "Poppins", "sans-serif";
+    font-size: 1rem;
+}
+
+.typing button {
+    padding: 0 10%;
+    color: #000;
+    font-family: "Poppins", "sans-serif";
+    font-size: 1rem;
+    background-color: #0fd90f;
+}
+
+.typing button:hover {
+    cursor: pointer;
+    background-color: #227322;
+    color:#fff;
+}
+
+.msg-area {
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.poruka {
+    margin: 1rem 0;
+    width: 17rem;
+    align-self: flex-start;
+    color:#000;
+    padding: 3px;
+    border-radius: 50px;
+    background-color: #0fd90f;
+    align-content:center;
+    text-align: center;
+    align-self: flex-end;
+}
+
+.odgovor {
+    margin: 1rem 0;
+    min-width: 200px;
+    min-height: 30px;
+    color: #000;
+    padding: 3px;
+    border-radius: 50px;
+    background-color: #7d7e7d;
+    align-content: center;
+    text-align: center;
+    align-self: flex-start;
 }
