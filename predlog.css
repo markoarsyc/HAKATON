@@ -13,3 +13,8 @@ body {
 .predlog img{
     width: 20%;
 }
+
+.text-predlog{
+    color:#fff;
+    background-color: #0000ff;
+}
