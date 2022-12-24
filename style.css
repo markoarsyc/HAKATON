@@ -62,3 +62,38 @@ nav{
     background-size: cover;
     background-repeat: no-repeat;
 }
+.glavni-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo a img{
+    display: hidden;
+}
+
+.glavni-logo img{
+    position: relative;
+    height: 500px;
+    top: -50%;
+
+}
+
+.ikonice{
+    display: flex;
+position: relative;
+top: -50%;
+top: -5rem;
+justify-content: center;
+
+}
+
+.ikonica{
+    height: 200px;
+    width: 200px;
+    /* box-shadow: 0 5px 5px 5px black; */
+}
+
+.ikonica:hover{
+    transform: scale(120%);
+    transition: 0.3s;
+}
