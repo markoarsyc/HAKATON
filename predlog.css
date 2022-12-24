@@ -1,8 +1,11 @@
 body {
     background-color:#000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.predlog{
+.predlog-ikonice{
     display: flex;
     flex-direction: row;
     width: 100vw;
@@ -10,6 +13,47 @@ body {
     align-items: center;
 }
 
-.predlog img{
-    width: 20%;
+.predlog-ikonice img{
+    padding-top: 3rem;
+    width: 12%;
+
 }
+
+.predlog-ikonice img:hover{
+    transform: scale(120%);
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.border{
+    position: relative;
+    top: -12rem;
+    width: 100%;
+    
+}
+
+.predlog{
+color: white;
+/* background-color: red; */
+width: 50%;
+text-align: center;
+padding: 2rem;
+position: relative;
+top: 9rem;
+}
+
+.predlog img{
+    position: relative;
+    top: -11rem;
+}
+
+
+.predlog h1{
+    text-transform: uppercase;
+    font-size: 2.6rem;
+    position: relative;
+    top: 5rem;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
