@@ -17,7 +17,11 @@ function posaljiPoruku() {
             replyString = "Hajde da pogledamo sta aplikacija predlaze!";
             break;
         case "Uz sta cemo da se zagrevamo?":
+        case "Uz sta se zagrevamo?":
             replyString = "Uz Tomu, naravno!";
+            break;
+        default:
+            replyString = "Sta god aplikacija kaze!";
             break;
     }
 

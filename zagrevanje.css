@@ -47,6 +47,10 @@ body {
     margin-right: 10%;
     justify-content: center;
     align-items: center;
+    min-height: 320px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border:2px solid #fff;
 }
 
 .poruka {
